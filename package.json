@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-cardano",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@emurgo/cardano-serialization-lib-browser": "^14.1.0",
+    "@emurgo/cardano-serialization-lib-nodejs": "^14.1.0",
+    "axios": "^1.7.9",
+    "bech32": "^2.0.0",
+    "bech32-buffer": "^0.2.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  }
+}
