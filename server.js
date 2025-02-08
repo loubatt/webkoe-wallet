@@ -6,7 +6,7 @@ const bech32 = require('bech32-buffer');
 const CardanoWasm = require('@emurgo/cardano-serialization-lib-nodejs');
 
 // Ganti dengan API Key Blockfrost Anda
-const BLOCKFROST_API_KEY = 'mainnetRNHSC1aMMsrTstlM1pm6lCz0WAv9zeY3';
+const BLOCKFROST_API_KEY = 'Blockfrost_api';
 const BLOCKFROST_API_URL = 'https://cardano-mainnet.blockfrost.io/api/v0'; // Ganti dengan testnet jika membutuhkan
 
 const app = express();
